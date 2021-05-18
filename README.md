@@ -1,16 +1,25 @@
-### Hi there 👋
+## Welcome to the coolest Github profile ever... yes EVER!
 
-<!--
-**ChaseStruse/ChaseStruse** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+### About Me 🥳
 
-Here are some ideas to get you started:
+My name is Chase Struse, hence the very creative username ChaseStruse. I have been a developer since 2018 and have loved (almost) every minute of it. Outside of programming I love playing basketball, video games, and pretty much doing anything nerdy. I am a huge Boston Celtics fan and can talk to you about them for hours, so feel free to hit me up anytime. 
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### Knowledge 🧠
+
+Currently I have worked professionally using:
+React
+C# .Net
+SQL
+
+In my free time I have used:
+C++
+Python
+Swift
+
+### Currently working on? 👷‍♂️
+I have been bouncing back and forth on lots of projects but currently looking to contribute to some fun and open source programs.
+
+### How to reach me ⛹️
+Email: chasestruse@gmail.com
+LinkedIn: https://www.linkedin.com/in/chasestruse/
+
