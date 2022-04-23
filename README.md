@@ -6,15 +6,9 @@ My name is Chase Struse, hence the very creative username ChaseStruse. I have be
 
 ### Knowledge 🧠
 
-Currently I have worked professionally using:
-React
-C# .Net
-SQL
+Currently I have worked professionally using: React, Angular, C# .Net, and SQL
 
-In my free time I have used:
-C++
-Python
-Swift
+In my free time I have used: C++, Python, and Swift
 
 ### Currently working on? 👷‍♂️
 I have been bouncing back and forth on lots of projects but currently looking to contribute to some fun and open source programs.
