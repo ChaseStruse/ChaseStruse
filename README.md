@@ -11,7 +11,8 @@ Currently I have worked professionally using: React, Angular, C# .Net, and SQL
 In my free time I have used: C++, Python, and Swift
 
 ### Currently working on? 👷‍♂️
-I have been bouncing back and forth on lots of projects but currently looking to contribute to some fun and open source programs.
+
+Currently I have been working on various different python projects and would love to collab with anyone who would want to! 
 
 ### How to reach me ⛹️
 Email: chasestruse@gmail.com
