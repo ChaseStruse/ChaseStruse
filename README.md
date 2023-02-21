@@ -1,4 +1,4 @@
-## Welcome to the coolest Github profile ever... yes EVER!
+## Welcome to the coolest Github profile ever... yes EVER! 
 
 ### About Me 🥳
 
@@ -8,7 +8,7 @@ My name is Chase Struse, hence the very creative username ChaseStruse. I have be
 
 Currently I have worked professionally using: React, Angular, C# .Net, and SQL
 
-In my free time I have used: C++, Python, and Swift
+In my free time I have used: Rust, Python, and Swift
 
 ### Currently working on? 👷‍♂️
 
