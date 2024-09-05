@@ -6,15 +6,16 @@ My name is Chase Struse, hence the very creative username ChaseStruse. I have be
 
 ### Knowledge 🧠
 
-Currently I have worked professionally using: React, Angular, C# .Net, and SQL
-
-In my free time I have used: Rust, Python, and Swift
+What I use professionally currently: Python & AWS 
+What I have used professionally at prior jobs: React, Angular, C# .Net, SQL, and Google Cloud
+In my free time I enjoy using: Python and Swift
 
 ### Currently working on? 👷‍♂️
 
 Currently I have been working on various different python projects and would love to collab with anyone who would want to! 
 
 ### How to reach me ⛹️
+
 Email: chasestruse@gmail.com
 LinkedIn: https://www.linkedin.com/in/chasestruse/
 
