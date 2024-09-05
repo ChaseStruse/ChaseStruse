@@ -6,9 +6,9 @@ My name is Chase Struse, hence the very creative username ChaseStruse. I have be
 
 ### Knowledge 🧠
 
-What I use professionally currently: Python & AWS 
-What I have used professionally at prior jobs: React, Angular, C# .Net, SQL, and Google Cloud
-In my free time I enjoy using: Python and Swift
+- What I use professionally currently: Python & AWS 
+- What I have used professionally at prior jobs: React, Angular, C# .Net, SQL, and Google Cloud
+- In my free time I enjoy using: Python and Swift
 
 ### Currently working on? 👷‍♂️
 
