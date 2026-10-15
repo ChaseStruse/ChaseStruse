@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Chase Struse</title>
+  <desc id="desc">Developer since 2018. Python, cloud, and Celtics basketball. A dark green banner with basketball court line art.</desc>
+  <defs>
+    <linearGradient id="background" x2="1" y2="1">
+      <stop stop-color="#091B15" />
+      <stop offset="1" stop-color="#103C2A" />
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#A2E9BD" stroke-opacity=".045" />
+    </pattern>
+    <clipPath id="frame"><rect width="1200" height="360" rx="24" /></clipPath>
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="360" fill="url(#background)" />
+    <rect width="1200" height="360" fill="url(#grid)" />
+    <g fill="none" stroke="#6CD995" stroke-width="2" opacity=".2">
+      <rect x="855" y="-80" width="430" height="520" rx="24" />
+      <path d="M855 180h430" />
+      <circle cx="1070" cy="180" r="66" />
+      <circle cx="1070" cy="-20" r="155" />
+      <circle cx="1070" cy="380" r="155" />
+    </g>
+    <path d="M64 66h44" stroke="#79EDA5" stroke-width="5" stroke-linecap="round" />
+    <text x="64" y="110" fill="#9BDEB4" font-family="ui-monospace, Consolas, monospace" font-size="14" letter-spacing="3">HELLO WORLD. LET’S BUILD.</text>
+    <text x="60" y="191" fill="#F1FFF5" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="68" font-weight="750" letter-spacing="-3">Chase Struse<tspan fill="#79EDA5">.</tspan></text>
+    <text x="64" y="235" fill="#BDCFBF" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="22">Python, cloud, and Celtics basketball.</text>
+    <rect x="64" y="273" width="212" height="34" rx="17" fill="#79EDA5" fill-opacity=".09" stroke="#79EDA5" stroke-opacity=".25" />
+    <circle cx="83" cy="290" r="4" fill="#79EDA5" />
+    <text x="97" y="295" fill="#B8EAC9" font-family="ui-monospace, Consolas, monospace" font-size="13">DEVELOPER SINCE 2018</text>
+    <g transform="translate(985 180)" fill="none" stroke="#79EDA5" stroke-width="3">
+      <circle r="76" fill="#103424" />
+      <path d="M-76 0H76M0-76V76M-54-54C10-35 10 35-54 54M54-54C-10-35-10 35 54 54" />
+    </g>
+  </g>
+</svg>

@@ -1,21 +1,33 @@
-## Welcome to the coolest Github profile ever... yes EVER! 
+![Chase Struse — developer since 2018. Python, cloud, and Celtics basketball.](assets/profile-banner.svg)
 
-### About Me 🥳
+<p align="center">
+  <a href="mailto:chasestruse@gmail.com"><img src="https://img.shields.io/badge/Email-Say_hello-007A33?style=flat-square&logo=gmail&logoColor=white" alt="Email Chase" /></a>
+  <a href="https://www.linkedin.com/in/chasestruse/"><img src="https://img.shields.io/badge/LinkedIn-Lets_connect-007A33?style=flat-square" alt="Connect with Chase on LinkedIn" /></a>
+</p>
 
-My name is Chase Struse, hence the very creative username ChaseStruse. I have been a developer since 2018 and have loved (almost) every minute of it. Outside of programming I love playing basketball, video games, and pretty much doing anything nerdy. I am a huge Boston Celtics fan and can talk to you about them for hours, so feel free to hit me up anytime. 
+## Hey, I’m Chase 👋
 
-### Knowledge 🧠
+Developer since 2018. Proud owner of the very creative username **ChaseStruse**. Still loving (almost) every minute of writing code.
 
-- What I use professionally currently: Python & AWS 
-- What I have used professionally at prior jobs: React, Angular, C# .Net, SQL, and Google Cloud
-- In my free time I enjoy using: Python and Swift
+I work with **Python and AWS**, explore **Python and Swift** in my free time, and am always up for building something with other people.
 
-### Currently working on? 👷‍♂️
+Away from the keyboard? Basketball, video games, and pretty much anything nerdy. **Huge Boston Celtics fan** — bring up the Celtics and we might be here a while. ☘️
 
-Currently I have been working on various different python projects and would love to collab with anyone who would want to! 
+## My toolkit
 
-### How to reach me ⛹️
+| Where | What I use |
+| :--- | :--- |
+| **At work** | Python · AWS |
+| **Previous roles** | React · Angular · C# / .NET · SQL · Google Cloud |
+| **For fun** | Python · Swift |
 
-Email: chasestruse@gmail.com
-LinkedIn: https://www.linkedin.com/in/chasestruse/
+## On my court right now 🏀
 
+Tinkering with Python projects and looking for people to build with. Have an idea or a project that could use another developer? **[Let’s talk.](mailto:chasestruse@gmail.com)**
+
+---
+
+<p align="center">
+  <samp>Code. Hoops. Celtics. Repeat.</samp><br />
+  <sub>Still the coolest GitHub profile ever… yes, EVER.</sub>
+</p>
