@@ -1,4 +1,4 @@
-![Chase Struse · Solar Ram Studios — an animated sun orbited by the Solar Forge apps, with a terminal running a local LLM.](assets/profile-banner.svg)
+![Chase Struse · Solar Ram Studios — an animated sun orbited by the Solar Forge apps, with a terminal running a local LLM.](assets/solar-forge-banner.svg)
 
 <p align="center">
   <a href="https://chasestruse.github.io"><img src="https://img.shields.io/badge/Website-chasestruse.github.io-C89956?style=flat-square" alt="Visit Chase's website" /></a>

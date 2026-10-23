@@ -1,6 +1,6 @@
 """Generate the animated Solar Ram Studios / Solar Forge GitHub banner.
 
-Usage: python3 scripts/gen_banner.py > assets/profile-banner.svg
+Usage: python3 scripts/gen_banner.py > assets/solar-forge-banner.svg
 """
 import math
 import random
