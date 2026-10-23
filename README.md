@@ -24,19 +24,19 @@ My day-to-day and my favorite combo.
 
 ## ☀️ Solar Forge
 
-Ideas built to shine, all from Solar Ram Studios.
+Ideas built to shine, all from Solar Ram Studios. **Diagrams** is live now; the rest are on their way.
 
 | Project | What it does |
 | :--- | :--- |
 | ⭐ [**Diagrams**](https://github.com/ChaseStruse/solar-forge-diagrams) | Offline architecture diagramming for Linux: AWS, Kubernetes, and flowcharts on an isometric canvas. [Try it in your browser →](https://chasestruse.github.io/diagrams/) |
-| [**Harness**](https://github.com/ChaseStruse/solar-forge-harness) | Python CLI for request-driven coding agents. Review the plan, approve every edit, keep an audit trail. Works with Ollama and local models. |
-| [**Game Engine**](https://github.com/ChaseStruse/solar-forge-game-engine) | LLM-first native 2D game engine with an AI assistant that proposes reviewable, undoable changes. |
-| [**Life Helper**](https://github.com/ChaseStruse/solar-forge-life-helper) | Private desktop hub for budgeting, tasks, habits, meals, pets, and more, with an optional on-device assistant. |
-| [**Boards**](https://github.com/ChaseStruse/solar-forge-boards) | Project board built for both people and software agents. |
-| [**Signal Lab**](https://github.com/ChaseStruse/solar-forge-signal-lab) | Offline spaceship soundscape studio. |
-| [**Arcade**](https://github.com/ChaseStruse/solar-forge-arcade) | Retro 3D arcade cabinet in the browser with eight original games. |
-| [**Dashboard**](https://github.com/ChaseStruse/solar-forge-dashboard) · [**Pets**](https://github.com/ChaseStruse/solar-forge-pets) · [**Themes**](https://github.com/ChaseStruse/solar-forge-omarchy-themes) | Command center, a pixel-art dragon pet, and custom themes for Omarchy Linux. |
-| [**Game Guides**](https://github.com/ChaseStruse/solar-forge-game-guides) | Lightweight MMORPG guide site with live event timers. |
+| **Harness** | Python CLI for request-driven coding agents. Review the plan, approve every edit, keep an audit trail. Works with Ollama and local models. |
+| **Game Engine** | LLM-first native 2D game engine with an AI assistant that proposes reviewable, undoable changes. |
+| **Life Helper** | Private desktop hub for budgeting, tasks, habits, meals, pets, and more, with an optional on-device assistant. |
+| **Boards** | Project board built for both people and software agents. |
+| **Signal Lab** | Offline spaceship soundscape studio. |
+| **Arcade** | Retro 3D arcade cabinet in the browser with eight original games. |
+| **Dashboard** · **Pets** · **Themes** | Command center, a pixel-art dragon pet, and custom themes for Omarchy Linux. |
+| **Game Guides** | Lightweight MMORPG guide site with live event timers. |
 
 ## My toolkit
 
