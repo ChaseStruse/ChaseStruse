@@ -1,16 +1,16 @@
-![Chase Struse · Solar Ram Studios — an animated sun orbited by the Solar Forge apps, with a terminal running a local LLM.](assets/solar-forge-banner.svg)
+![Chase Struse · Solar Ram Studios — an animated sun orbited by the Solar Forge suite of apps, with a terminal running a local LLM.](assets/solar-ram-banner.svg)
 
 <p align="center">
-  <a href="https://chasestruse.github.io"><img src="https://img.shields.io/badge/Website-chasestruse.github.io-C89956?style=flat-square" alt="Visit Chase's website" /></a>
-  <a href="mailto:chasestruse@gmail.com"><img src="https://img.shields.io/badge/Email-Say_hello-C89956?style=flat-square&logo=gmail&logoColor=white" alt="Email Chase" /></a>
-  <a href="https://www.linkedin.com/in/chasestruse/"><img src="https://img.shields.io/badge/LinkedIn-Lets_connect-C89956?style=flat-square" alt="Connect with Chase on LinkedIn" /></a>
+  <a href="https://chasestruse.github.io"><img src="https://img.shields.io/badge/Website-chasestruse.github.io-20D99A?style=flat-square" alt="Visit Chase's website" /></a>
+  <a href="mailto:chasestruse@gmail.com"><img src="https://img.shields.io/badge/Email-Say_hello-20D99A?style=flat-square&logo=gmail&logoColor=white" alt="Email Chase" /></a>
+  <a href="https://www.linkedin.com/in/chasestruse/"><img src="https://img.shields.io/badge/LinkedIn-Lets_connect-20D99A?style=flat-square" alt="Connect with Chase on LinkedIn" /></a>
 </p>
 
 ## Hey, I’m Chase 👋
 
 Senior Software Engineer and developer since 2018. Proud owner of the very creative username **ChaseStruse**.
 
-By day I build backend systems and cloud infrastructure with **Python and AWS**. On my own time I run **Solar Ram Studios**, home of **Solar Forge**: a growing suite of local-first desktop apps, developer tools, and Linux software. Your data stays on your machine, and the AI runs on local models you can inspect.
+By day I build backend systems and cloud infrastructure with **Python and AWS**. On my own time I run **Solar Ram Studios**, my umbrella for local-first software. Its first suite is **Solar Forge**: desktop apps, developer tools, and Linux software, with more suites on the way. Your data stays on your machine, and the AI runs on local models you can inspect.
 
 Away from the keyboard: manga, new tech, video games, and time with my Corgis. 🐕
 
