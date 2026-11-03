@@ -1,6 +1,6 @@
 """Generate the animated Solar Ram Studios / Solar Forge GitHub banner.
 
-Usage: python3 scripts/gen_banner.py > assets/solar-forge-banner.svg
+Usage: python3 scripts/gen_banner.py > assets/solar-ram-banner.svg
 """
 import math
 import random
@@ -8,13 +8,13 @@ import sys
 
 W, H = 1200, 400
 SUN = (912, 204)
-GOLD = "#efbd6d"
-GOLD_HI = "#ffdda5"
-GOLD_DIM = "#a36c2d"
-INK = "#090908"
-TEXT = "#f2ede3"
-TEXT2 = "#b2ada3"
-MUTED = "#8a8478"
+GOLD = "#20d99a"
+GOLD_HI = "#5dffc0"
+GOLD_DIM = "#11995d"
+INK = "#040f0b"
+TEXT = "#f2f5f4"
+TEXT2 = "#9aa4a0"
+MUTED = "#787e81"
 SANS = "system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif"
 MONO = "ui-monospace, 'JetBrains Mono', 'SFMono-Regular', Consolas, monospace"
 
@@ -24,7 +24,7 @@ ORBITS = [
     (164, 66, 40, ["Life Helper", "Boards", "Arcade", "Signal Lab"]),
     (220, 96, 58, ["Dashboard", "Pets", "Themes", "Game Guides"]),
 ]
-PLANET_COLORS = ["#efbd6d", "#e8a845", "#f6d49a", "#c89956"]
+PLANET_COLORS = ["#20d99a", "#3fe8d0", "#f2f5f4", "#11995d"]
 
 random.seed(7)
 out = []
@@ -42,7 +42,7 @@ w(f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 
   'role="img" aria-labelledby="title desc">')
 w('<title id="title">Chase Struse · Solar Ram Studios</title>')
 w('<desc id="desc">Animated banner: Chase Struse, Senior Software Engineer at Solar Ram Studios, '
-  'forging the Solar Forge suite of local-first apps. A glowing sun is orbited by Solar Forge apps '
+  'an umbrella studio for local-first software, starting with the Solar Forge app suite. A glowing sun is orbited by the Solar Forge apps '
   'while a terminal runs a local LLM with zero bytes sent to the cloud.</desc>')
 
 w("""<style>
@@ -75,21 +75,21 @@ w("""<style>
 
 w(f"""<defs>
   <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-    <stop stop-color="#0d0c0a" /><stop offset=".55" stop-color="{INK}" /><stop offset="1" stop-color="#161109" />
+    <stop stop-color="#07170f" /><stop offset=".55" stop-color="{INK}" /><stop offset="1" stop-color="#0f1f19" />
   </linearGradient>
   <radialGradient id="halo" cx="{SUN[0]}" cy="{SUN[1]}" r="300" gradientUnits="userSpaceOnUse">
-    <stop stop-color="#e8a845" stop-opacity=".30" /><stop offset=".45" stop-color="#e8a845" stop-opacity=".07" />
-    <stop offset="1" stop-color="#e8a845" stop-opacity="0" />
+    <stop stop-color="#20d99a" stop-opacity=".26" /><stop offset=".45" stop-color="#20d99a" stop-opacity=".06" />
+    <stop offset="1" stop-color="#20d99a" stop-opacity="0" />
   </radialGradient>
   <radialGradient id="core" cx=".42" cy=".38" r=".7">
-    <stop stop-color="#fff4dc" /><stop offset=".35" stop-color="{GOLD_HI}" />
-    <stop offset=".8" stop-color="#e8a845" /><stop offset="1" stop-color="#b9772c" />
+    <stop stop-color="#ffffff" /><stop offset=".35" stop-color="{GOLD_HI}" />
+    <stop offset=".8" stop-color="#20d99a" /><stop offset="1" stop-color="#0b7a4c" />
   </radialGradient>
   <linearGradient id="cometTail" x1="0" y1="0" x2="1" y2="0">
     <stop stop-color="{GOLD_HI}" stop-opacity="0" /><stop offset="1" stop-color="{GOLD_HI}" />
   </linearGradient>
   <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-    <path d="M40 0H0V40" fill="none" stroke="#e3cfaa" stroke-opacity=".035" />
+    <path d="M40 0H0V40" fill="none" stroke="#f2f5f4" stroke-opacity=".035" />
   </pattern>
   <clipPath id="frame"><rect width="{W}" height="{H}" rx="24" /></clipPath>
   <clipPath id="type1"><rect x="96" y="262" height="24" width="0">
@@ -113,7 +113,7 @@ for i in range(70):
     r = random.choice([0.6, 0.8, 1, 1.2, 1.6])
     delay = random.uniform(0, 4)
     dur = random.uniform(2.5, 6)
-    w(f'<circle cx="{x:.1f}" cy="{y:.1f}" r="{r}" fill="#fff1d6" class="twinkle" '
+    w(f'<circle cx="{x:.1f}" cy="{y:.1f}" r="{r}" fill="#e6fff5" class="twinkle" '
       f'style="animation-delay:-{delay:.2f}s;animation-duration:{dur:.2f}s" />')
 
 # Comet
@@ -143,6 +143,10 @@ w('</g>')
 w(f'<circle cx="{sx}" cy="{sy}" r="33" fill="none" stroke="{GOLD_DIM}" stroke-width="1.2" />')
 w(f'<circle cx="{sx}" cy="{sy}" r="26" fill="url(#core)" />')
 
+# Label the orbit system as one suite under the studio
+w(f'<text x="{SUN[0]}" y="{SUN[1] + 132}" text-anchor="middle" fill="{MUTED}" font-family="{MONO}" '
+  f'font-size="11" letter-spacing="3">THE <tspan fill="{GOLD}">SOLAR FORGE</tspan> SUITE</text>')
+
 # Planets: animateMotion keeps the labels upright as they orbit
 for oi, (rx, ry, dur, apps) in enumerate(ORBITS):
     path = ellipse_path(rx, ry)
@@ -162,29 +166,29 @@ for oi, (rx, ry, dur, apps) in enumerate(ORBITS):
 # --- Left column -------------------------------------------------------------
 # Kicker with the studio mark
 w(f'<g transform="translate(62 46)">'
-  f'<rect width="28" height="28" rx="7" fill="#141411" stroke="{GOLD_DIM}" stroke-opacity=".6" />'
-  f'<g stroke="#f2bd69" stroke-linecap="round" stroke-width="1.2">'
+  f'<rect width="28" height="28" rx="7" fill="#0f1f19" stroke="{GOLD_DIM}" stroke-opacity=".6" />'
+  f'<g stroke="#5dffc0" stroke-linecap="round" stroke-width="1.2">'
   f'<path d="M14 5v18M5 14h18M7.6 7.6l12.8 12.8M20.4 7.6 7.6 20.4" /></g>'
-  f'<circle cx="14" cy="14" r="2.6" fill="#e8a845" /></g>')
-w(f'<text x="102" y="65" fill="#cab18c" font-family="{MONO}" font-size="13" letter-spacing="3.5">'
+  f'<circle cx="14" cy="14" r="2.6" fill="#20d99a" /></g>')
+w(f'<text x="102" y="65" fill="{GOLD}" font-family="{MONO}" font-size="13" letter-spacing="3.5">'
   f'SOLAR RAM STUDIOS <tspan fill="{MUTED}">· IDEAS BUILT TO SHINE</tspan></text>')
 
 w(f'<text x="58" y="146" fill="{TEXT}" font-family="{SANS}" font-size="66" font-weight="750" '
   f'letter-spacing="-2.5">Chase Struse<tspan fill="{GOLD}">.</tspan></text>')
 w(f'<text x="62" y="188" fill="{TEXT2}" font-family="{SANS}" font-size="21">'
-  f'Forging <tspan fill="{GOLD_HI}" font-weight="600">Solar Forge</tspan>: '
-  f'local-first apps for Linux.</text>')
+  f'Local-first apps for Linux, starting with '
+  f'<tspan fill="{GOLD_HI}" font-weight="600">Solar Forge</tspan>.</text>')
 
 # Terminal card running a local model
 tx, ty, tw, th = 62, 214, 548, 116
-w(f'<rect x="{tx}" y="{ty}" width="{tw}" height="{th}" rx="14" fill="#141411" fill-opacity=".92" '
-  f'stroke="#e3cfaa" stroke-opacity=".16" />')
-w(f'<path d="M{tx} {ty + 32}h{tw}" stroke="#e3cfaa" stroke-opacity=".1" />')
-for i, c in enumerate(["#e0715a", "#efbd6d", "#8fbf7a"]):
+w(f'<rect x="{tx}" y="{ty}" width="{tw}" height="{th}" rx="14" fill="#0f1f19" fill-opacity=".92" '
+  f'stroke="#f2f5f4" stroke-opacity=".16" />')
+w(f'<path d="M{tx} {ty + 32}h{tw}" stroke="#f2f5f4" stroke-opacity=".1" />')
+for i, c in enumerate(["#ff5c7a", "#d4f27a", "#20d99a"]):
     w(f'<circle cx="{tx + 20 + i * 16}" cy="{ty + 16}" r="4.5" fill="{c}" fill-opacity=".85" />')
 w(f'<text x="{tx + 76}" y="{ty + 21}" fill="{MUTED}" font-family="{MONO}" font-size="12">forge@omarchy: ~/solar-forge</text>')
 # Token meter
-w(f'<circle cx="{tx + tw - 132}" cy="{ty + 16}" r="3.5" fill="#8fbf7a" class="dot-live" />')
+w(f'<circle cx="{tx + tw - 132}" cy="{ty + 16}" r="3.5" fill="#5dffc0" class="dot-live" />')
 w(f'<text x="{tx + tw - 122}" y="{ty + 21}" fill="{MUTED}" font-family="{MONO}" font-size="11" letter-spacing="1">LOCAL LLM</text>')
 for i in range(6):
     w(f'<rect x="{tx + tw - 48 + i * 6}" y="{ty + 8}" width="3.5" height="16" rx="1.5" fill="{GOLD}" '
@@ -208,8 +212,8 @@ def reveal(begin_frac, text_svg, y):
 
 
 reveal(0.52, f'<tspan fill="{GOLD}">☀</tspan><tspan fill="{TEXT2}"> model loaded · 100% on-device · </tspan>'
-       f'<tspan fill="#8fbf7a">0 bytes to the cloud</tspan>', ty + 86)
-reveal(0.64, f'<tspan fill="{MUTED}">›</tspan><tspan fill="{TEXT2}"> forging 11 apps across work, play &amp; Linux…</tspan>', ty + 106)
+       f'<tspan fill="#5dffc0">0 bytes to the cloud</tspan>', ty + 86)
+reveal(0.64, f'<tspan fill="{MUTED}">›</tspan><tspan fill="{TEXT2}"> solar forge: 11 apps · more suites in the works…</tspan>', ty + 106)
 
 # Chips
 chips = ["LOCAL-FIRST", "LOCAL LLMs", "PYTHON · QT · TAURI", "OMARCHY LINUX"]
@@ -219,7 +223,7 @@ for c in chips:
     w(f'<rect x="{cx}" y="346" width="{cw:.0f}" height="28" rx="14" fill="{GOLD}" fill-opacity=".07" '
       f'stroke="{GOLD}" stroke-opacity=".28" />')
     w(f'<circle cx="{cx + 14}" cy="360" r="3" fill="{GOLD}" />')
-    w(f'<text x="{cx + 24}" y="364.5" fill="#e6cfa6" font-family="{MONO}" font-size="11.5" letter-spacing="1">{c}</text>')
+    w(f'<text x="{cx + 24}" y="364.5" fill="#d3dbd8" font-family="{MONO}" font-size="11.5" letter-spacing="1">{c}</text>')
     cx += cw + 10
 
 w('</g></svg>')
